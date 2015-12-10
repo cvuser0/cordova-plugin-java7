@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-java7"
+        version="1.0.0">
+    <name>Cordova Java 7</name>
+    <author href="">cvuser0</author>
+    <description>
+        This plugin attempts to convince Cordova to compile against Java 7 instead of Java 5 on Java platforms
+    </description>
+    <repo>https://github.com/cvuser0/cordova-plugin-java7.git</repo>
+    <issue>https://github.com/cvuser0/cordova-plugin-java7/issues</issue>
+    <license>MIT</license>
+    <keywords>cordova, java 7</keywords>
+    <platform name="android">
+        <source-file src="build-extras.gradle" target-dir="" />
+    </platform>
+    <platform name="amazon-fireos">
+        <source-file src="build-extras.gradle" target-dir="" />
+    </platform>
+</plugin>
